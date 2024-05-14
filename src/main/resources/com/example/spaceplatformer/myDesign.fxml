@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="578.0" prefWidth="403.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.spaceplatformer.HelloController">
+   <children>
+      <ImageView fx:id="bg2" fitHeight="419.0" fitWidth="403.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../space.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg1" fitHeight="419.0" fitWidth="403.0" layoutY="-228.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../space.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bg3" fitHeight="419.0" fitWidth="403.0" layoutY="-631.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../space.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comet1" fitHeight="88.0" fitWidth="80.0" layoutX="277.0" layoutY="-150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../png-transparent-meteorite-yellow-meteoroid-mediafire-snout-food-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comet2" fitHeight="88.0" fitWidth="80.0" layoutX="277.0" layoutY="-150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../png-transparent-meteorite-yellow-meteoroid-mediafire-snout-food-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="comet3" fitHeight="88.0" fitWidth="91.0" layoutX="264.0" layoutY="-150.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../png-transparent-meteorite-yellow-meteoroid-mediafire-snout-food-thumbnail.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="player" fitHeight="116.0" fitWidth="80.0" layoutX="147.0" layoutY="427.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../123.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelLose" layoutX="105.0" layoutY="77.0" text="Lose" textFill="#e0c7099b" visible="false">
+         <font>
+            <Font name="Ani" size="95.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="boom" fitHeight="175.0" fitWidth="200.0" layoutX="87.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true" visible="false">
+         <image>
+            <Image url="@../../../boom.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
